@@ -1,6 +1,19 @@
 export PATH=$PATH:/usr/local/bin:/usr/local/git/bin
 export PS1="\e[0;33m[\u@\h \W]\$ \e[m "
 
+export PATH=${PATH}:/Applications/android-sdk-mac/tools
+
+
+
+
+
+
+
+
+
+
+
+
 alias drush='/usr/local/drush/drush'
 alias g='/usr/local/git/bin/git'
 alias ll='ls -la'
