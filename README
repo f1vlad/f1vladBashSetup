@@ -1,1 +1,13 @@
 This is used mainly to backup my bash environment setup
+
+Notes:
+
+Currently using the default color scheme, (look for 'colorscheme' on line 190 of .vimrc file)
+
+if you copy the files over, you can type
+:colorscheme blackboard
+:colorscheme default
+:colorscheme ir_black
+
+to toggle through different color schemes
+
