@@ -1,9 +1,10 @@
-export PATH=$PATH:/usr/local/bin:/usr/local/git/bin
+export PATH=$PATH:/usr/local/bin:/usr/local/git/bin:/opt/local/bin
 #export PS1="\e[0;33m[\u@\h \W]\$ \e[m "
 export PATH=${PATH}:/Applications/android-sdk-mac/tools
 source ~/.git-completion.sh
 
 alias ll='ls -la'
+alias ej='sudo umount -f /Volumes/NEXUS'
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
