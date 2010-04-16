@@ -1,4 +1,10 @@
 export PATH=$PATH:/usr/local/bin:/usr/local/git/bin:/opt/local/bin
+export GREP_OPTIONS='--color=auto'
+
+export TERM="xterm-color"
+alias ls="ls -G"
+export PS1="\e[1;30m\][\e[\e[1;30m\]\e[1;33m\] \u@\H \[\e[1;32m\]\w\[\e[0m\] \e[1;30m\]]\n[\[ \e[1;31m\]\T\[\e[0m\]\e[1;30m\] ] > \e[37m\]"
+
 #export PS1="\e[0;33m[\u@\h \W]\$ \e[m "
 export PATH=${PATH}:/Applications/android-sdk-mac/tools
 source ~/.git-completion.sh
